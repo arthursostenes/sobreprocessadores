@@ -2,79 +2,20 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quiz sobre Processadores de Celular</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="container">
+    <h1>Quiz: Processadores de Celular</h1>
+    <form id="quizForm">
+      <!-- As perguntas serão adicionadas aqui -->
+    </form>
+    <button id="submitBtn">Enviar Respostas</button>
+    <div id="result"></div>
+  </div>
 
-  <h1>Quiz: Processadores de Celular</h1>
-  <form id="quizForm">
-    
-    <div class="question">
-      <h3>1. Qual desses é um processador da Qualcomm?</h3>
-      <label><input type="radio" name="q1" value="Snapdragon"> Snapdragon</label><br>
-      <label><input type="radio" name="q1" value="Exynos"> Exynos</label><br>
-      <label><input type="radio" name="q1" value="A17 Bionic"> A17 Bionic</label><br>
-      <label><input type="radio" name="q1" value="Tensor"> Tensor</label>
-    </div>
-
-    <div class="question">
-      <h3>2. Qual empresa fabrica o chip Exynos?</h3>
-      <label><input type="radio" name="q2" value="MediaTek"> MediaTek</label><br>
-      <label><input type="radio" name="q2" value="Qualcomm"> Qualcomm</label><br>
-      <label><input type="radio" name="q2" value="Samsung"> Samsung</label><br>
-      <label><input type="radio" name="q2" value="Apple"> Apple</label>
-    </div>
-
-    <div class="question">
-      <h3>3. Qual desses processadores é desenvolvido pela Apple?</h3>
-      <label><input type="radio" name="q3" value="Snapdragon 8 Gen 2"> Snapdragon 8 Gen 2</label><br>
-      <label><input type="radio" name="q3" value="A17 Bionic"> A17 Bionic</label><br>
-      <label><input type="radio" name="q3" value="Dimensity 9200"> Dimensity 9200</label><br>
-      <label><input type="radio" name="q3" value="Exynos 2200"> Exynos 2200</label>
-    </div>
-
-    <div class="question">
-      <h3>4. O chip Dimensity é desenvolvido por qual empresa?</h3>
-      <label><input type="radio" name="q4" value="Qualcomm"> Qualcomm</label><br>
-      <label><input type="radio" name="q4" value="MediaTek"> MediaTek</label><br>
-      <label><input type="radio" name="q4" value="Samsung"> Samsung</label><br>
-      <label><input type="radio" name="q4" value="Google"> Google</label>
-    </div>
-
-    <div class="question">
-      <h3>5. Qual é o principal foco dos chips Tensor do Google?</h3>
-      <label><input type="radio" name="q5" value="Performance bruta"> Performance bruta</label><br>
-      <label><input type="radio" name="q5" value="Jogos 3D"> Jogos 3D</label><br>
-      <label><input type="radio" name="q5" value="Inteligência Artificial"> Inteligência Artificial</label><br>
-      <label><input type="radio" name="q5" value="Eficiência energética"> Eficiência energética</label>
-    </div>
-
-    <div class="question">
-      <h3>6. Qual tecnologia é usada para fabricar chips mais modernos como o A17?</h3>
-      <label><input type="radio" name="q6" value="10nm"> 10nm</label><br>
-      <label><input type="radio" name="q6" value="7nm"> 7nm</label><br>
-      <label><input type="radio" name="q6" value="5nm"> 5nm</label><br>
-      <label><input type="radio" name="q6" value="3nm"> 3nm</label>
-    </div>
-
-    <div class="question">
-      <h3>7. Qual empresa fabrica fisicamente os chips da Apple?</h3>
-      <label><input type="radio" name="q7" value="Intel"> Intel</label><br>
-      <label><input type="radio" name="q7" value="Samsung"> Samsung</label><br>
-      <label><input type="radio" name="q7" value="TSMC"> TSMC</label><br>
-      <label><input type="radio" name="q7" value="Foxconn"> Foxconn</label>
-    </div>
-
-    <div class="question">
-      <h3>8. O que significa a sigla SoC?</h3>
-      <label><input type="radio" name="q8" value="System of Chips"> System of Chips</label><br>
-      <label><input type="radio" name="q8" value="System on Chip"> System on Chip</label><br>
-      <label><input type="radio" name="q8" value="Secure on Chip"> Secure on Chip</label><br>
-      <label><input type="radio" name="q8" value="Software on Chip"> Software on Chip</label>
-    </div>
-
-    <div class="question">
-      <h3>9. Qual é o principal concorrente do Snapdragon 8 Gen 2?</h3>
-      <label><input type="radio" name="q9" value="A17 Bionic"> A17 Bionic</label><br>
-      <label><input type
+  <script src="script.js"></script>
+</body>
+</html>
